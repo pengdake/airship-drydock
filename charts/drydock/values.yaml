@@ -219,7 +219,7 @@ endpoints:
     port:
       api:
         default: 80
-        internal: 5000
+        internal: 80
   physicalprovisioner:
     name: drydock
     hosts:
@@ -276,8 +276,8 @@ endpoints:
       default: http
     port:
       region_api:
-        default: 80
-        public: 80
+        default: 5240
+        public: 5240
         nodeport: 31900
       region_proxy:
         default: 8000
